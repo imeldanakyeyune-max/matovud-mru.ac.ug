@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faculty of Science and Technology - Kingston University</title>
+  <style type="text/css">
+ 
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #003865; /* Kingston blue */
+      color: white;
+      padding: 10px;
+      text-align: right;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+  
+    .sidebar {
+      width: 200px;
+      background-color: #e6eef5;
+      position: fixed;
+      top: 50px;
+      bottom: 40px;
+      left: 0;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 15px 0;
+    }
+
+    .sidebar ul li a {
+      color: #003865;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sidebar ul li a:hover {
+      color: #005fa3;
+    }
+
+
+    .main {
+      margin-left: 220px; /* to avoid overlap with sidebar */
+      padding: 20px;
+    }
+
+    .main h1 {
+      color: #003865;
+    }
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e0ebf5;
+      color: #003865;
+    }
+
+    .footer {
+      background-color: #003865;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Profiles</a></li>
+    </ul>
+  </div>
+  
+  <div class="main">
+    <h1>Faculty of Science and Technology - Courses</h1>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Course Title</th>
+        <th>Duration</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Computer Science BSc</td>
+        <td>3 Years</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Information Systems BSc</td>
+        <td>3 Years</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Software Engineering BSc</td>
+        <td>3 Years</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Cyber Security BSc</td>
+        <td>3 Years</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="footer">
+    &copy; <script>document.write(new Date().getFullYear());</script> Muteesa 1 University. All rights reserved.
+  </div>
+
+</body>
+</html>
